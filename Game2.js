@@ -55,29 +55,29 @@ let obsSpawn = 100;
 //---------------------------------------
 function preload(){
     soundFormats('mp3','wav');
-    playerImg  = loadImage('./assets/PlayerImage0001.png');
-    bgImg      = loadImage('./assets/StarryNightPx.png');
-    bgImg2     = loadImage('./assets/StarryNight.jpg')
-    earImg     = loadImage('./assets/Ear.png');
-    obs1       = loadImage('./assets/Obstacle1.png');
-    obs2       = loadImage('./assets/Obstacle2.png');
-    obs3       = loadImage('./assets/Obstacle3.png');
-    obs4       = loadImage('./assets/Obstacle4.png');
-    lifeImg    = loadImage('./assets/Life.png');
-    btnimg1    = loadImage('./assets/Button1.png');
-    enemyImg   = loadImage('./assets/Enemy.png');
+    playerImg  = loadImage('./assets/playerImage0001.png');
+    bgImg      = loadImage('./assets/starryNightPx.png');
+    bgImg2     = loadImage('./assets/starryNight.jpg')
+    earImg     = loadImage('./assets/ear.png');
+    obs1       = loadImage('./assets/obstacle1.png');
+    obs2       = loadImage('./assets/obstacle2.png');
+    obs3       = loadImage('./assets/obstacle3.png');
+    obs4       = loadImage('./assets/obstacle4.png');
+    lifeImg    = loadImage('./assets/life.png');
+    btnimg1    = loadImage('./assets/button1.png');
+    enemyImg   = loadImage('./assets/enemy.png');
 
     jumpSd     = loadSound('./assets/JumpSFX.wav');
-    itemSd     = loadSound('./assets/Coins.wav');
-    bgm        = loadSound('./assets/Bgm.mp3');
-    hit        = loadSound('./assets/GetHit.wav');
-    shootSd    = loadSound('./assets/Shoot.wav');
+    itemSd     = loadSound('./assets/coins.wav');
+    bgm        = loadSound('./assets/bgm.mp3');
+    hit        = loadSound('./assets/getHit.wav');
+    shootSd    = loadSound('./assets/shoot.wav');
     heal       = loadSound('./assets/Heal.mp3');
-    gameOverSnd   = loadSound('./assets/GameOver.wav');
-    clicksnd   = loadSound('./assets/Click.wav');
-    failSnd   = loadSound('./assets/Failed.wav');
-    explode   = loadSound('./assets/Explode.wav');
-    success   = loadSound('./assets/Success.wav');
+    gameOverSnd   = loadSound('./assets/gameOver.wav');
+    clicksnd   = loadSound('./assets/click.wav');
+    failSnd   = loadSound('./assets/failed.wav');
+    explode   = loadSound('./assets/explode.wav');
+    success   = loadSound('./assets/success.wav');
     
 
     pixelFont  =loadFont('./assets/Pixeboy-z8XGD.ttf');
