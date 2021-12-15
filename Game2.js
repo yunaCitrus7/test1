@@ -56,8 +56,8 @@ let obsSpawn = 100;
 function preload(){
     soundFormats('mp3','wav');
     playerImg  = loadImage('./assets/playerImage0001.png');
-    bgImg      = loadImage('./assets/starryNightPx.png');
-    bgImg2     = loadImage('./assets/starryNight.jpg')
+    bgImg      = loadImage('./assets/StarryNightPx.png');
+    bgImg2     = loadImage('./assets/StarryNight.jpg')
     earImg     = loadImage('./assets/ear.png');
     obs1       = loadImage('./assets/obstacle1.png');
     obs2       = loadImage('./assets/obstacle2.png');
